@@ -1,6 +1,5 @@
 import { CryptoService } from './crypto.service';
-import * as fs from 'fs';
-import * as path from 'path';
+
 
 describe('CryptoService', () => {
   const svc = new CryptoService();
